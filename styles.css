@@ -1,0 +1,46 @@
+#pinyinflix-overlay {
+  position: fixed;
+
+  left: 50%;
+  bottom: 120px;
+
+  transform: translateX(-50%);
+
+  z-index: 999999;
+
+  text-align: center;
+
+  background: rgba(0, 0, 0, 0.75);
+
+  padding: 14px 24px;
+
+  border-radius: 12px;
+
+  color: white;
+
+  font-family: Arial, sans-serif;
+
+  pointer-events: none;
+}
+
+.pinyinflix-pinyin {
+  font-size: 24px;
+
+  color: #ffd966;
+
+  margin-bottom: 4px;
+}
+
+.pinyinflix-hanzi {
+  font-size: 32px;
+
+  font-weight: bold;
+
+  margin-bottom: 4px;
+}
+
+.pinyinflix-english {
+  font-size: 18px;
+
+  color: #dddddd;
+}

@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "PinyinFlix",
+  "version": "0.1.0",
+  "description": "Learn Mandarin while watching Netflix with Hanzi, Pinyin, and English subtitles.",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.netflix.com/watch/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
